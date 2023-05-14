@@ -1,6 +1,11 @@
 import { AppProps } from 'next/app';
 
-import '@/styles/globals.css';
+import '../styles/globals.css';
+import '../../public/css/plugins/magnific-popup.css';
+import '../../public/css/vendor/icofont.min.css';
+import '../../public/css/vendor/line-awesome.min.css';
+import '../../public/css/vendor/simple-line-icons.css';
+import '../../public/css/style.css';
 // !STARTERCONF This is for demo purposes, remove @/styles/colors.css import immediately
 import '@/styles/colors.css';
 

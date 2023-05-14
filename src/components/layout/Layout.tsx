@@ -1,6 +1,14 @@
-import * as React from 'react';
+import Footer from '../Shared/Footer';
+import Navigation from '../Shared/Navigation';
 
-export default function Layout({ children }: { children: React.ReactNode }) {
-  // Put Header or Footer Here
-  return <>{children}</>;
-}
+const Layout = ({ children }) => {
+  return (
+    <>
+      <Navigation></Navigation>
+      <main>{children}</main>
+      <Footer></Footer>
+    </>
+  );
+};
+
+export default Layout;
